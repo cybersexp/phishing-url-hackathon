@@ -1,0 +1,25 @@
+# данные с платформы и рабочие файлы
+data/*.csv
+.venv/
+__pycache__/
+*.partial.csv
+logs/
+ext/*/
+!ext/rdap_bootstrap.json
+
+# кэш и промежуточные вероятности; в репозитории только четыре финальных стека
+artifacts/cache/
+artifacts/preds/*
+!artifacts/preds/oof_stack9s.npy
+!artifacts/preds/test_stack9s.npy
+!artifacts/preds/oof_stack9cat.npy
+!artifacts/preds/test_stack9cat.npy
+!artifacts/preds/oof_stack10.npy
+!artifacts/preds/test_stack10.npy
+!artifacts/preds/oof_stack11.npy
+!artifacts/preds/test_stack11.npy
+submissions/*
+!submissions/sub_blend3.csv
+!submissions/sub_blend4.csv
+catboost_info/
+.DS_Store

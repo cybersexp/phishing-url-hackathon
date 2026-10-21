@@ -1,0 +1,11 @@
+catboost==1.2.10
+dnspython==2.8.0
+joblib==1.6.0
+lightgbm==4.7.0
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==25.0.1
+requests==2.34.2
+scikit-learn==1.7.2
+scipy==1.15.3
+tldextract==5.4.0
